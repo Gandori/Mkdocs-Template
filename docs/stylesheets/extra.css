@@ -14,8 +14,11 @@
     padding-left: 10px;
 }
 
+.md-nav__item--nested {
+    padding-bottom: 10px !important;
+}
+
 .md-footer-meta__inner {
     display: flex;
     justify-content: center;
 }
-
