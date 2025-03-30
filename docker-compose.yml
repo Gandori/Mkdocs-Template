@@ -1,0 +1,16 @@
+services:
+    api-docs:
+        image: //mkdocs-template:latest
+        container_name: mkdocs-template
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: always
+        ports:
+            - 10000:80
+        networks:
+            - mkdocs-template
+
+networks:
+    mkdocs-template:
+        external: true

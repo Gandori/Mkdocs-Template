@@ -1,0 +1,4 @@
+mkdocs==1.6.0
+mkdocs-material==9.5.2
+mkdocs-include-markdown-plugin==6.0.4
+mkdocs-macros-plugin==1.0.5

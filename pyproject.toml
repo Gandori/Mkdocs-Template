@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'mkdocs-template'
+version = '0.0.0'
+requires-python = '>=3.12'
+dependencies = [
+    'mkdocs==1.6.0',
+    'mkdocs-material==9.5.2',
+    'mkdocs-include-markdown-plugin==6.0.4',
+    'mkdocs-macros-plugin==1.0.5 ',
+]
+
+[project.optional-dependencies]
+dev = []
